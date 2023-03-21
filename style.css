@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Ubuntu";
+  background-image: url("pexels-tahir-shaw-186980.jpg");
+  background-size: cover;
+}
+
+.card {
+  background: rgb(83, 161, 213);
+  color: white;
+  padding: 2em;
+  width: 100%;
+  border-radius: 20px;
+  max-width: 420px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5em;
+  border: none;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  background-color: rgb(179, 207, 244);
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+}
+.search-Btn {
+  border-radius: 20px;
+  width: 70px;
+  height: 25px;
+  color: white;
+  opacity: 100%;
+  background-color: rgb(83, 161, 213);
+  border: 1px solid white;
+}
+.search-Btn:hover {
+  background-color: rgb(45, 74, 97);
+}
+.setHome-Btn {
+  border-radius: 20px;
+  width: 70px;
+  height: 25px;
+  color: rgb(220, 233, 85);
+  opacity: 100%;
+  background-color: rgb(83, 161, 213);
+  border: 1px solid rgb(220, 233, 85);
+}
+.setHome-Btn:hover {
+  background-color: rgb(219, 223, 145);
+  color: #333;
+}
+
+#cf-switch {
+  width: 60px;
+  height: 25px;
+  color: white;
+  opacity: 100%;
+  background-color: rgb(83, 161, 213);
+  border: 1px solid white;
+}
+#cf-switch:hover {
+  background-color: rgb(45, 74, 97);
+}
+
+#home-Btn {
+  border-radius: 20px;
+  width: 200px;
+  height: 25px;
+  color: white;
+  opacity: 100%;
+  background-color: rgb(83, 161, 213);
+  border: 1px solid white;
+}
+#home-Btn:hover {
+  background-color: rgb(45, 74, 97);
+}
